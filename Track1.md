@@ -18,14 +18,14 @@ https://d8it4huxumps7.cloudfront.net/uploads/attachements/files/50b1e524-c089-4e
 5) A <b>valve</b> controls the flow of something through a pipe.<br>
 6) A <b>Motor</b> converts electrical energy into mechanical movement.<br>
 Each of these field instruments communicate with the control room using electrical signals in pairs.(Every pair has a different instrument with different combinations)<br>
-<b>Signal → CHARM slot → Baseplate → CIOC → Cabinet</b><br>
-<b>CHARM is essentially a configurable I/O module used in Emerson's DeltaV system.</b><br>
-CHARM = a place where a field signal gets connected to the DeltaV system.<br>
+<b>•Signal → CHARM slot → Baseplate → CIOC → Cabinet</b><br>
+<b>•CHARM is essentially a configurable I/O module used in Emerson's DeltaV system.</b><br>
+>CHARM = a place where a field signal gets connected to the DeltaV system.<br>
 each charm module is a position.<br>
-<b>A baseplate is the physical structure that holds the CHARM modules.</b><br>
-<b>CIOC = CHARMs I/O Card,think of it as the controller/interface that manages the CHARM I/O system.<br>
-A CIOC can be associated with one or more baseplates.</b><br>
-<b>A cabinet is a large enclosure in the control room that contains equipment such as:<br>
+<b>•A baseplate is the physical structure that holds the CHARM modules.</b><br>
+<b>•CIOC = CHARMs I/O Card,think of it as the controller/interface that manages the CHARM I/O system.<br>
+>A CIOC can be associated with one or more baseplates.</b><br>
+<b>• A cabinet is a large enclosure in the control room that contains equipment such as:<br>
 -CIOCs<br>
 -Baseplates<br>
 -CHARM modules<br>
