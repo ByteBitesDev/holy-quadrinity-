@@ -38,7 +38,7 @@ each charm module is a position.<br>
 3."Use the right CHARM" <br>
 4. "Leave spare room" <br>
 <h2>Understanding the problem statement</h2> <br>
-An engineer may have 10,000+ instrument signals that need to be assigned to the correct DeltaV I/O locations.They might have a huge Excel sheet. The engineer manually decides where each signal should go. With 10,000+ signals, this becomes extremely tedious. <br>
+An engineer may have 10,000+ instrument signals that need to be assigned to the correct DeltaV I/O locations.<br>They might have a huge Excel sheet. The engineer manually decides where each signal should go.<br> With 10,000+ signals, this becomes extremely tedious. <br>
 SO we basically have to build an automated constraint-solving/optimization tool, and also make it so that our software can raise TQ's <br>
 TQ = Technical Query.<br>
 It's basically a question/issue that needs to be sent back to the customer/engineer because the provided information doesn't make sense or doesn't satisfy the rules. <br>
