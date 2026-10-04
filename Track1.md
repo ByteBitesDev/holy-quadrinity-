@@ -32,3 +32,9 @@ each charm module is a position.<br>
 -power supplies<br>
 -wiring/termination equipment<br>
 -other control-system hardware</b><br>
+<h2>Project Rules:-</h2><br>
+1. "Keep related signals together" (For efficient and faster management)<br>
+2. "Separate duty and standby equipment" (Have a backup system ready in case some equipment in 1st fails)<br>
+3."Use the right CHARM" <br>
+4. "Leave spare room" <br>
+
