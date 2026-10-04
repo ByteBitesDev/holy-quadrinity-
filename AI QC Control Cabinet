@@ -1,0 +1,45 @@
+cabinet ka workflow
+[Photos] + [Drawing] + [Wire List]
+        |
+        v
+1. Ingestion
+   - Load images, PDFs, Excel, CSV
+        |
+        v
+2. Preprocessing
+   - Undistort, perspective correct, lighting normalize, tile large images
+        |
+        v
+3. Perception
+   - Detect devices, labels, terminals, ferrules
+   - OCR labels and ferrules
+   - Detect wire colors
+        |
+        v
+4. Scene Builder
+   - Convert detections into structured “actual” model
+        |
+        v
+5. Expected Model Builder
+   - Parse drawing/wire list into structured “expected” model
+        |
+        v
+6. Matcher / Aligner
+   - Align photo to drawing using rails, labels, order, reference points
+        |
+        v
+7. Rules Engine
+   - Presence, label, order, ferrule, terminal, wire color, GA checks
+        |
+        v
+8. Findings + Reports
+   - Check sheet, marked-up photo, snippets, before/after report
+        |
+        v
+9. UI + Re-check
+   - Fix → re-photo → re-check → close issue
+
+
+
+
+BUTTT isme excel kaha laayenge. seedha front end pe error show nahi kar sakte kya
