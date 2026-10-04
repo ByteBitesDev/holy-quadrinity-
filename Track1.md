@@ -6,4 +6,29 @@ https://d8it4huxumps7.cloudfront.net/uploads/attachements/files/50b1e524-c089-4e
 <p>A process plant has thousands of field instruments: transmitters, switches, valves, motors. Each one sends or receives one electrical signal, carried to the control room in multi-pair cables of 24, 12, 6 or 2 pairs. Before the DeltaV control system can use them, an engineer must give every signal an exact home: a CHARM slot, on a baseplate, under a CIOC, inside a cabinet. This must follow project rules: keep related signals together, separate duty and standby equipment, use the right CHARM and leave spare room. <ins>Today this is done by hand in Excel for 10,000+ signals, and every customer revision means reworking it and tracing the impact again.</ins> <strong>Can a tool do it from rules the engineer defines, and raise TQs where the data conflicts?</strong> </p>
 
 <h2> Understanding the Terms of the problem:- </h2>
-
+1) A <b>process plant</b> is a large industrial facility where raw materials are processed into something useful.
+2) A <b>field instrument</b> is a physical device installed out in the plant that either:
+-measures something
+-detects something
+-sends information
+-receives a control signal
+-or helps control a process
+3) A <b>transmitter</b> measures something and sends that measurement to a control system.
+4) A <b>switch</b> usually tells you whether something has crossed a particular condition.
+5) A <b>valve</b> controls the flow of something through a pipe.
+6) A <b>Motor</b> converts electrical energy into mechanical movement.
+Each of these field instruments communicate with the control room using electrical signals in pairs.(Every pair has a different instrument with different combinations)
+<b>Signal → CHARM slot → Baseplate → CIOC → Cabinet</b>
+<b>CHARM is essentially a configurable I/O module used in Emerson's DeltaV system.</b>
+CHARM = a place where a field signal gets connected to the DeltaV system.
+each charm module is a position.
+<b>A baseplate is the physical structure that holds the CHARM modules.</b>
+<b>CIOC = CHARMs I/O Card,think of it as the controller/interface that manages the CHARM I/O system.
+A CIOC can be associated with one or more baseplates.</b>
+<b>A cabinet is a large enclosure in the control room that contains equipment such as:
+-CIOCs
+-Baseplates
+-CHARM modules
+-power supplies
+-wiring/termination equipment
+-other control-system hardware</b>
